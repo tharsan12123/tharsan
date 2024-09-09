@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Logout</h1>
+    </header>
+
+    <main>
+        <p>You have been logged out. <a href="login.html">Login again</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 T-Shirt Store. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Clear user session and redirect to login page
+        localStorage.removeItem('currentUser');
+        window.location.href = 'login.html';
+    </script>
+</body>
+</html>

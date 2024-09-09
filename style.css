@@ -1,0 +1,86 @@
+/* Basic Layout Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Product list styling */
+.product-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.add-to-cart {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-cart:disabled {
+    background-color: gray;
+}
+
+#cart {
+    margin-bottom: 100px; /* Add margin to avoid overlapping with footer */
+}
+
+footer {
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /* Adjust height if needed */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Cart Page Styles */
+#cartItems {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cartItems li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#cartTotal {
+    font-weight: bold;
+    margin-top: 20px;
+}
